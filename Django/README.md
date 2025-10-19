@@ -132,20 +132,4 @@ Les règles de validation sont gérées par les serializers DRF, qui renvoient d
 
 ---
 
-## 5. Tests
-
-Lancer la suite de tests automatisés :
-
-```bash
-python manage.py test
-```
-
----
-
-## 6. Notes pour la production
-
-- Pense à définir `DEBUG = False` et à fournir un `SECRET_KEY` sécurisé via les variables d’environnement.
-- Remplace SQLite par une base de données adaptée (PostgreSQL, MySQL, …) si nécessaire.
-- Configure un serveur WSGI/ASGI (Gunicorn, uvicorn, etc.) derrière un reverse proxy pour l’hébergement.
-
 
